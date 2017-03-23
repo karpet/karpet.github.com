@@ -1,0 +1,148 @@
+#resume { 
+  /* max-width: 1000px; */
+  margin: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#resume, p { 
+  color: black;
+}
+#resume ul {
+  padding-left: 20px;
+}
+.indent {
+  margin-left: 20px;
+}
+.job {
+  margin: 8px 0 16px 0;
+}
+.job-title {
+  font-weight: bold;
+}
+.job-geo {
+  font-size: 90%;
+}
+.job-summary {
+  margin-top: 8px;
+}
+
+dt {
+    float: left;
+    left: 0;
+    color: #626262;
+    font-size: 14px;
+    text-transform: none;
+    width: 80px;
+    text-align: right;
+}
+
+dd {
+    border-left: 1px solid #dfdfdf;
+    margin: 0 0 -15px 86px;
+    padding: 0 0 0 9px;
+    clear: right;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+div.job {
+    line-height: 1.4;
+}
+
+div.job ul {
+    margin-top: 10px;
+}
+
+
+li {
+  padding-left: 1em;
+  text-indent: -0.7em;
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+
+li:before {
+  content: "›";
+  padding-right: 5px;
+  margin-bottom: 0;
+}
+
+@media screen
+{
+  .image {
+    min-width: 210px;
+  }
+ 
+  a:link {
+    color: black;
+    text-decoration: none;
+    border-bottom: #666666;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none dotted none;
+  }
+
+  a:visited {
+    color: black;
+  }
+
+  .contact-list {
+    margin-left: 0;
+  }
+
+  .print-only {
+    display: none;
+  }
+}
+
+@media print
+{
+  a:link {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: black;
+  }
+
+  h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  body {
+    font-size: 1.25em !important;
+    line-height: 1.2;
+  }
+
+
+  div.job {
+    page-break-inside: avoid;
+  }
+
+  div.job ul {
+    margin-top: 10px;
+  }
+
+  .contact-list {
+    display: block;
+    margin-left: 1%;
+    width: 100% !important;
+  }
+
+  .contact-list li {
+    padding-left: 0;
+    display: inline-block;
+  }
+
+  .contact-list li:before {
+    content: "›";
+    margin: 0 4px;
+  }
+
+  .no-print, .no-print * {
+    display: none !important;
+  }
+}
