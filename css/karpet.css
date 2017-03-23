@@ -9,6 +9,9 @@
 #resume ul {
   padding-left: 20px;
 }
+h3 {
+  margin-top: 1em;
+}
 .indent {
   margin-left: 20px;
 }
@@ -23,6 +26,9 @@
 }
 .job-summary {
   margin-top: 8px;
+}
+p {
+  margin-bottom: 1.5rem;
 }
 
 dt {
