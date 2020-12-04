@@ -22,6 +22,12 @@
     gtag('js', new Date());
     gtag('config', 'UA-2876801-5');
   </script>
+  <script>
+    // force https
+    if (location.protocol !== 'https:') {
+      location.replace(`https:${location.href.substring(location.protocol.length)}`);
+    }
+  </script>
 </head>
 <body>
   <p>&nbsp;</p>
