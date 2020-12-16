@@ -5,4 +5,8 @@ tidy:
 slides:
 	cd slides && git checkout master && git pull
 
+setup:
+	git submodule init
+	git submodule update
+
 .PHONY: tidy slides
